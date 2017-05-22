@@ -1,0 +1,66 @@
+/* CSS Document */
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,select,textarea,span,img,a,em,strong,*{ margin:0; padding:0;}
+body{ font-family:"微软雅黑"; font-size:12px; color:#000000;}
+ul,ol,li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:none; vertical-align:middle;}
+a{ text-decoration:none; color:#333333;}
+a:hover{ color:#009999;}
+.clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+.html{ font-size: 62.5%;}
+*{ margin:0; padding:0;}/*去掉所有标签内外边距*/
+
+
+
+ul ,ol{ list-style:none;}/*去掉无序列表的项目符号*/
+
+
+
+a{  text-decoration:none; color:#666;}/*去掉超链接下划线   颜色*/
+
+a:hover{ color:#FF3300;}/*鼠标经过变色*/
+
+
+
+img{ border:none;}/*去掉图片加超链接后的边框*/
+
+h1,h2,h3,h4,h5,h6{ font-size:14px;}/*标题统一字号*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, table, tbody, p, th, td, em {
+    -moz-text-size-adjust: none;
+    border: medium none;
+    font-family: "Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+img, input, button, a, select, textarea {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    resize: none;
+}
+ol, ul {
+    list-style: outside none none;
+}
+h1, h2, h3, h4, h5, h6, p, em, i, b, em {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    overflow-wrap: break-word;
+}
+a:active, a:focus {
+    outline: medium none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
